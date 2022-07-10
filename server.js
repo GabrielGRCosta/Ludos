@@ -4,22 +4,22 @@ var app = express();
 
 
 app.get("/",function(req,res){
-    res.render("index");
+    res.render("login");
 });
 
 app.get("/index2.html",function(req,res){
-  res.render("index2");
+  res.render("home");
 });
 
-app.get("/index3",function(req,res){
-  res.render("index3");
+app.get("/index3.html",function(req,res){
+  res.render("catalogo");
 });
 
-app.get("/index4",function(req,res){
-  res.render("index4");
+app.get("/index4.html",function(req,res){
+  res.render("jogo");
 });
 
-app.get("/cadastro",function(req,res){
+app.get("/cadastro.html",function(req,res){
   res.render("cadastro");
 });
 
